@@ -1,0 +1,24 @@
+{
+  "title": "Walmart Scraper Input",
+  "description": "Configuration for Walmart product scraping",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "keywords": {
+      "title": "Search Keywords",
+      "type": "array",
+      "description": "Keywords to search for products on Walmart",
+      "items": { "type": "string" },
+      "editor": "stringList"
+    },
+    "maxItems": {
+      "title": "Maximum Items",
+      "type": "integer",
+      "description": "Maximum number of items to scrape",
+      "default": 30,
+      "minimum": 1,
+      "maximum": 500
+    }
+  },
+  "required": ["keywords"]
+}
