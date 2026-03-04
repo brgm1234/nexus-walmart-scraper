@@ -1,0 +1,9 @@
+{
+  "actorSpecVersion": 1,
+  "name": "nexus-walmart-scraper",
+  "title": "Walmart Scraper",
+  "description": "Crawls walmart.com search, extracts title, price, rating, reviewCount, imageUrl, productUrl, brand, sponsored",
+  "version": "1.0.0",
+  "buildTag": "latest",
+  "environmentVariables": [],
+}
